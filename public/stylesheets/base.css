@@ -1,0 +1,54 @@
+body {
+    font: 12px/1.125 Microsoft Yahei, arial, 宋体, Helvetica, sans-serif;
+    font-weight: 400;
+}
+ul,li {
+    list-style: none;
+}
+
+
+/**
+ * 浮动
+ */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/**
+ * 清除浮动
+ */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * 定位
+ */
+.g-absolute {
+    position: absolute;
+}
+.g-relative {
+    position: relative;
+}
+
+/**
+ * 文字显示位置
+ */
+.g-text-l {
+    text-align: left;
+}
+.g-text-r {
+    text-align: right;
+}
+.g-text-c {
+    text-align: center;
+}
